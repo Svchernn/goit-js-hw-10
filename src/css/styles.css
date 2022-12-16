@@ -18,3 +18,31 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.country-card {
+  display: flex;
+  gap: 15;
+  align-items: center;
+}
+
+.card-text.country-item {
+  list-style: none;
+}
+
+.card-text {
+  font-size: large;
+}
+
+.country-item {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 5;
+  align-items: center;
+  font-size: large;
+}
